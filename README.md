@@ -62,3 +62,11 @@ ip addr show
 ```
 #### AWS
 Esta se puede ver en las instancias de EC2
+
+## Enviar datos desde MQTT
+Para enviar datos, se utiliza el formato de influxDB <br>
+<a href="https://docs.influxdata.com/influxdb/v1/write_protocols/line_protocol_tutorial/">Tutorial aquí</a>
+### Ejemplo usado en la plantilla
+temp_measurement,sensor=termometro temp=24<br>
+temp_measurement es un <u>measurement</u> configurado en el archivo <strong>telegraf.conf</strong>.<br>
+Después de eso, son valores que se enviarán a ese measurement. <strong>Tiene que tener esa estrucura (la coma sin espacios a los lados)</strong>.
