@@ -44,7 +44,9 @@ Ejecutamos el docker.
 ```bash
 docker-compose up -d
 ```
-#### Credenciales
+
+## Acceder a los datos
+### Credenciales
 <strong>InfluxDB:<br></strong>
 Usuario: hola<br>
 Contraseña: holamundo<br>
@@ -52,7 +54,6 @@ Contraseña: holamundo<br>
 Usuario: admin<br>
 Contraseña: admin<br><br>
 MQTT y Prometheus no utilizan contraseña<br>
-## Acceder a los datos
 ### Obtener IP
 #### Localmente
 Se tiene que obtener la IP para acceder
