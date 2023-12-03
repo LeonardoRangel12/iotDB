@@ -1,5 +1,6 @@
 # iotDB
 Este proyecto fue creado para hacer una infraestructura completa de IoT para maquinas virtuales.
+Si quieren hacer cambios, pueden crear su propio repositorio con un fork y de ahí hacer sus cambios (esta es una plantilla)
 ## Como instalar
 <strong>ESTAR EN USUARIO ROOT AL EMPEZAR</strong>
 ```BASH
