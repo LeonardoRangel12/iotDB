@@ -34,10 +34,14 @@ Todo lo necesario viene dentro de Docker
 git clone https://github.com/LeonardoRangel12/iotDB.git
 ```
 
+
 ### Ejecutar repositorio
-Entramos a la carpeta y ejecutamos el docker
-```bash
+Antes de ejecutar el Docker debemos cambiar los permisos para que puedan utilizar las carpetas:
+```
 cd iotDB
+chmod -R 777 data/*
+Ejecutamos el docker.
+```bash
 docker-compose up -d
 ```
 
